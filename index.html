@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+    <head>
+        <meta charset="UTF-8">
+        <title>Breakout Game</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <div id="user">Your Score :</div>
+        <div id="score"> 0 </div>
+        <div class="grid"></div>
+            <input type="button" value="Reset" title="Clicca per ricaricare la pagina" onclick="return RefreshWindow();"/>
+        
+    
+        
+        <script src="index.js"></script>
+        
+    </body>
+</html>
+<script>
+    function RefreshWindow()
+    {
+     window.location.reload(true);
+    }
+    </script>
