@@ -1,0 +1,71 @@
+body{
+    background-image: url(images/game.jpg);
+    background-size: cover;
+}
+
+.grid{
+    position: absolute;
+    top: 15%;
+    left: 30%;
+    width:560px;
+    height: 300px;
+    border: double violet 8px;
+    margin-top: 200px;
+    margin-left: 10px;
+    background-color: black;
+   
+}
+
+.block{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: blueviolet;
+}
+.user{
+    position: absolute;
+    width: 100px;
+    height: 20px;
+    background-color: white;
+}
+
+#title{
+    color: darkred;
+    text-align: center;
+    font-family: 'Secular One', sans-serif;
+    font-weight: bolder;
+    font-size: 50px;
+}
+
+.ball {
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 10px;
+    background-color: white;
+}
+#score {
+    border: 5px solid black;
+    border-radius: 4px;
+    margin: 20px auto;
+    width: 200px;
+    color: white;
+    font-size: 46px;
+    text-align: center;
+    padding: 15px 20px;
+    font-family: 'secular one';
+    position: relative ;
+
+}
+
+
+input{
+margin-left:720px ;
+margin-top: 460px;
+background-color: black;
+color: bisque;
+font-size: 25px;
+border-radius: 2px ;
+border: purple 2px solid;
+    
+}
